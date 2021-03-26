@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+<style>
+body {
+    background-color: rgba(14, 14, 14, 14);
+    overflow-x: hidden;
+}
+
+.theTitle {
+    color: rgba(245, 245, 245, 0.685);
+}
+
+hr.myHR {
+    width: 50vw;
+}
+
+button {
+    color: gray;
+    background-color: transparent;
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+/***Checkbox***/
+
+/* Large checkboxes */
+.myInput_large {
+  height: 22px;
+  width: 22px;
+}
+
+.myInput_large[type="checkbox"]:before {
+  width: 20px;
+  height: 20px;
+}
+
+.myInput_large[type="checkbox"]:after {
+  top: -20px;
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (max-width: 445px) {
+  body {
+      white-space: revert!important;
+ }
+}
+</style>
+
+</head>
+<body>
+<!--Header-->
+    <header>
+<div id="logoContainer" class="mx-2 mt-1">
+<img src="assets/netflix_logo.png" height="45" width="95" alt="netflix_logo"/>
+</div><br>
+    </header>
+    
+
+    <!--Main-->
+    <main class="container" style="white-space: nowrap;"><br>
+        <div class="col px-4">
+
+
+<div class="container">
+<h3 class="text-light" style="font-family: Arial, Helvetica, sans-serif; font-size: 2rem;">Edit Profile</h3>
+<hr style="background-color: gray; margin: 0 auto; width: inherit;"><br>
+</div>
+
+<div id="bodyContainer" class="container">
+    <div class="row">
+        <div class="col col-2 mr-1">
+
+           
+<img id="striveSchoolLogo" src="assets/Strive-School-Logo.png" height="90" width="100" />
+<div><br></div>
+            </div>
+
+<div class="col col-md-1 col-lg-3">
+    <form>
+    <input type="text" disabled class="text-light pl-2" value="Strive Student" style="background-color: rgb(95, 95, 95);"/><br>
+
+<label for="profile"></label>
+<p class="text-light mb-1">Language</p>
+<select name="language" id="language" class="text-light" style="background-color: rgba(14, 14, 14, 14)">
+    <option value="English">English</option>
+    <option value="Español">Español</option>
+    <option value="Deutsch">Deutsch</option>
+    <option value="Português">Português</option>
+</select>
+    </form>
+    <hr class="myHR" style="background-color: gray;">
+    <p class="mb-1 theTitle">Maturity Settings</p>
+    <input type="text" class="text-light font-weight-bold mb-1" value="ALL MATURITY RATINGS" disabled style="background-color:rgba(50, 50, 50, 50); font-size: 12px; font-family: Arial, Helvetica, sans-serif;"/>
+    <p class="text-light">Show titles of <span class="font-weight-bold">all maturity ratings</span> for this profile.</p>
+    <button class="px-3 py-1">EDIT</button>
+    <hr class="myHR" style="background-color: gray;">
+    <p class="theTitle">Autoplay controls</p>
+    <span style="white-space: nowrap;"><input type="checkbox" checked class="myInput_large"/><span class="text-light pl-2 text-white">Autoplay next episode in a series on all devices.</span></span>
+    <br>
+    <span style="white-space: nowrap;"><input type="checkbox" checked class="myInput_large"/><span class="text-light pl-2 text-white">Autoplay previews while browsing on all devices.</span></span>
+    
+
+</div>
+
+    </div>
+    </div>
+</div>
+        </div>
+
+    </main>
+
+
+    <!--Footer-->
+    <footer>
+        <br>
+<div class="container">
+    <hr style="background-color: gray; margin-left: 2rem; width: 77vw;"><br>
+</div>
+
+        <div class="container">
+    <div class="row">
+        <div class="col px-1 mx-5">
+<button class="px-3 py-1 mr-3 mb-2 bg-light font-weight-bold text-dark">SAVE</button>
+<button class="px-3 py-1 mr-3 mb-2">CANCEL</button>
+<button class="px-3 py-1 mr-3 mb-2">DELETE PROFILE</button>
+</div></div></div>
+<br><br><br>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
