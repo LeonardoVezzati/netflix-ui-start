@@ -1,3 +1,4 @@
+
 .navbarLogo{
   width:100px;
 }
@@ -120,6 +121,10 @@ body{
   border-radius: 4px;
 }
 
+.bodySettings{
+  background-color: #FFFFFF;
+}
+
 .blackDropdown{
   background-color: black;
   color: #FFFFFF;
@@ -155,3 +160,31 @@ body{
 .UsersContainer{
   margin-top: 60px;
 }
+
+h6{
+
+    color:rgb(180, 180, 180);
+}
+
+ul{
+    list-style-type:none;
+    padding:0;
+}
+
+.navbar{
+    background-color:#141414;
+}
+
+#settings{
+    margin-bottom:5rem;
+}
+
+@media (min-width:768px){
+
+    #settings{
+        width:80%;
+    }
+}
+
+
+
