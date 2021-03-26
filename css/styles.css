@@ -121,6 +121,10 @@ body{
   border-radius: 4px;
 }
 
+.bodySettings{
+  background-color: #FFFFFF;
+}
+
 .blackDropdown{
   background-color: black;
   color: #FFFFFF;
